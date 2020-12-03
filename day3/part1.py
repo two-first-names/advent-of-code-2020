@@ -18,9 +18,6 @@ def main():
         char = lines[y][x]
         if char == '#':
             trees += 1
-            lines[y][x] = 'X'
-        else:
-            lines[y][x] = 'O'
         x = (x + 3) % line_len
         y = y + 1
 
